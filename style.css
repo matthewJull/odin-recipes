@@ -1,0 +1,130 @@
+body {
+    font-family: "Merienda", Verdana, sans-serif;
+    background-color: #f4e8dc;
+    margin: 0;
+    padding: 0;
+    color: #14100f;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.heading {
+    font-weight: 800;
+    color: #a85544;
+    transition: all 1s;
+}
+
+.heading:hover {
+    transform: scale(120%);
+}
+
+.header.text {
+    margin-top: 1.7rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+    transition: all 1s;
+}
+
+.header.text:hover {
+    transform: scale(120%);
+}
+
+.logo {
+    margin-top: 1.7rem;
+    transition: all 1s;
+}
+
+.logo:hover {
+    transform: scale(110%);
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    filter: drop-shadow(0px 0px 12px #ff3a47);
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.main {
+    flex: 1 0 auto;
+    margin-top: 5rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+#chicken {
+    margin-left: 8.3rem;
+    transition: all 1s;
+}
+
+#chicken:hover {
+    color: #a85544;
+    transform: scale(130%);
+}
+
+#boeuf {
+    margin-left: 8.3rem;
+    transition: all 1s;
+}
+
+#boeuf:hover {
+    color: #a85544;
+    transform: scale(130%);
+}
+
+#apple {
+    margin-left: 8.3rem;
+    transition: all 1s;
+}
+
+#apple:hover {
+    color: #a85544;
+    transform: scale(130%);
+}
+
+.footer {
+    flex: 0 0 auto;
+    background-color: #351c1e;
+    width: 100%;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    color: #a85544;
+}
+
+.footer .link {
+    color: #f1af52;
+}

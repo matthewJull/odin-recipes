@@ -5,23 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Odin Recipes</h1>
-    </header>
+    <div class="container">
+        <header class="header">
+            <h1 class="heading">Odin Recipes</h1>
+            <p class="header text">Witcher style</p>
+            <img class="logo" src="./assets/icons/wolf_logo.png" alt="Wolf Logo" width="300px">
+        </header>
 
-    <main>
-        <img src="./assets/icons/wolf_logo.png" alt="Wolf Logo" width="300px">
-        <nav>
-            <ul>
-                <li><a href="./recipes/chicken-sandwich.html"><i>CHICKEN SANDWICH</i></a></li>
-                <li><a href="./recipes/boeuf-bourguignon.html"><i>BOEUF BOURGUIGNON</i></a></li>
-                <li><a href="./recipes/baked-apple.html"><i>BAKED APPLE</i></a></li>
-            </ul>
-        </nav>
-    </main>
+        <main class="main">
+            <nav class="nav">
+                <a id="chicken" href="./recipes/chicken-sandwich.html"><i>CHICKEN SANDWICH</i></a>
+                <a id="boeuf" href="./recipes/boeuf-bourguignon.html"><i>BOEUF BOURGUIGNON</i></a>
+                <a id="apple" href="./recipes/baked-apple.html"><i>BAKED APPLE</i></a>
+            </nav>
+        </main>
+
+        <footer class="footer">
+            <p class="text">made by <a class="link" href="https://github.com/matthewJull">matthewJull</a> in 2024 &nbsp;
+                // &nbsp; inspired by <a class="link" href="https://www.theodinproject.com/">The Odin Project</a></p>
+        </footer>
+    </div>
 </body>
 
 </html>
